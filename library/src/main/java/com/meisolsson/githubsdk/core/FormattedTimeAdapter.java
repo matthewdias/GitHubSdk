@@ -30,7 +30,7 @@ public class FormattedTimeAdapter {
     @FromJson
     @FormattedTime
     Date fromJson(String time){
-        DateTimeFormatter format = ISODateTimeFormat.dateTime();
+        DateTimeFormatter format = ISODateTimeFormat.dateTimeParser();
         DateTime t = format.withZoneUTC().parseDateTime(time);
         return t.toDate();
     }
