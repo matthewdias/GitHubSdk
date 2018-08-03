@@ -14,6 +14,6 @@ public class DateQuery {
 
   @Override public String toString() {
     DateTimeFormatter format = ISODateTimeFormat.dateTime();
-    return formats.print(date.getTime());
+    return format.print(date.getTime());
   }
 }
