@@ -16,7 +16,7 @@
 
 package com.meisolsson.githubsdk.service.activity;
 
-import com.com.meisolsson.githubsdk.core.DateQuery;
+import com.meisolsson.githubsdk.core.DateQuery;
 import com.meisolsson.githubsdk.model.NotificationThread;
 import com.meisolsson.githubsdk.model.Page;
 import com.meisolsson.githubsdk.model.Subscription;
